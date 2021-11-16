@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,133 @@
     <link rel="stylesheet" href="./public/css/app.css">
     <title>Site Bootstrap</title>
 </head>
+
 <body>
-<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>   
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./public/img/coding-week.jpg" alt="logo de coding week" width="30" height="24">
+                </a>
+            </div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="banniere">
+                <img src="./public/img/twitter_bootstrap-wallpaper-1920x1200.jpg" class="img-fluid"
+                    alt="baniere mauve de bootstrap">
+            </div>
+        </section>
+        <section>
+            <div class="pres">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./public/img/team-1.png" class="img-fluid rounded-start"
+                                alt="bonhomme noir et blanc">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Nom prenom</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Dignissimos, cumque?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pres">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./public/img/team-2.png" class="img-fluid rounded-start"
+                                alt="bonhomme noir et blanc">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Nom prenom</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Dignissimos, cumque?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pres">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./public/img/team-3.png" class="img-fluid rounded-start"
+                                alt="bonhomme noir et blanc">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Nom prenom</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Dignissimos, cumque?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pres">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./public/img/team-4.png" class="img-fluid rounded-start"
+                                alt="bonhomme noir et blanc">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Nom prenom</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Dignissimos, cumque?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="info">
+                <h2>Information du la Coding School</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, mollitia!</p>
+            </div>
+            <div class="reseau">
+                <i class="fab fa-facebook-square "></i>
+                <i class="fas fa-envelope-open"></i>
+            </div>
+            <div class="newsletter">
+                <form class="row g-3">
+                    <div class="col-auto">
+                        <label for="text" class="">Newsletter</label>
+                        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+                    </div>
+                    <div class="col-auto">
+                        <label for="inputPassword2" class="visually-hidden">Password</label>
+                        <input type="email" class="form-control" id="inputPassword2">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+    </main>
+
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
