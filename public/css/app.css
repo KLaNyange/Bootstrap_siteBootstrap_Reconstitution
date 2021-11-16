@@ -18173,4 +18173,27 @@ footer {
     font-size: 12px;
   }
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  footer .info {
+    width: 33%;
+  }
+  footer .reseau {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .newsletter {
+    width: 33%;
+  }
+  footer .newsletter .row {
+    margin-left: 0;
+  }
+  footer .newsletter .row .col-auto {
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=app.css.map */
